@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ChocolatePizzaHeader from './header.js';
+//import Footer from './footer.js';
+//import Main from './main.js';
+//import Aritcle from './article';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ChocolatePizzaHeader />
+      {/* <Main date={`15 DEC 2013/Deserts`} />
+      <Article />
+      <Footer author={`Vanessa Stevenson`} /> */}
+      
+
     </div>
   );
 }
 
 export default App;
+
+
+
